@@ -1,0 +1,26 @@
+{
+  "hosting": {
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      "database.rules.json",
+      "**/.*",
+      "**/node_modules/**",
+      "db/**",
+      "supabase/**",
+      "server.py"
+    ],
+    "cleanUrls": false,
+    "headers": [
+      {
+        "source": "**/*.@(js|css|svg|jpg|jpeg|png|webp)",
+        "headers": [
+          { "key": "Cache-Control", "value": "public, max-age=3600" }
+        ]
+      }
+    ]
+  },
+  "database": {
+    "rules": "database.rules.json"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "rules": {
+    "universalgroup": {
+      ".read": true,
+      ".write": true
+    }
+  }
+}
